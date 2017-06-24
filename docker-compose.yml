@@ -2,23 +2,24 @@ version: '2'
 services:
   nwnserver:
     build: ./docker
-    image: nwn-devbase:latest
+    image: boilerplate_prc:latest
     working_dir: /opt/nwnserver/
     volumes:
-      - /opt/nwn/data:/opt/nwnserver/data
-      - /opt/nwn/erf:/opt/nwnserver/erf
-      - /opt/nwn/hak:/opt/nwnserver/hak
-      - /opt/nwn/tlk:/opt/nwnserver/tlk
-      - /opt/nwn/servervault:/opt/nwnserver/servervault
+      - /opt/nwn-prc35/data:/opt/nwnserver/data
+      - /opt/nwn-prc35/erf:/opt/nwnserver/erf
+      - /opt/nwn-prc35/hak:/opt/nwnserver/hak
+      - /opt/nwn-prc35/tlk:/opt/nwnserver/tlk
+      - /opt/nwn-prc35/servervault:/opt/nwnserver/servervault
       - ./module:/opt/nwnserver/modules
       - ./resman:/opt/nwnserver/resman
       - ./cache/gff:/opt/nwnserver/cache/gff
     command: ./compose-nwnx2setup.sh
+      --connect
       --mysql
       --profiler
       --resman
       -publicserver 1
-      -servername "Containerized nwn-devbase"
+      -servername "Containerized boilerplate-prc"
       -dmpassword foo
       -oneparty 0
       -pvp 1
@@ -37,6 +38,7 @@ services:
     restart: always
     stdin_open: true
     tty: true
+
     depends_on:
       - db
 
