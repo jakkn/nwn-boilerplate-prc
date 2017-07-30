@@ -10,7 +10,7 @@ Mod_CacheNSSList:
   type: list
   value: []
 Mod_Creator_ID: {type: int, value: 2}
-Mod_CustomTlk: {type: cexostr, value: ''}
+Mod_CustomTlk: {type: cexostr, value: prc_consortium}
 Mod_CutSceneList:
   type: list
   value: []
@@ -22,9 +22,9 @@ Mod_DuskHour: {type: byte, value: 18}
 Mod_Entry_Area: {type: resref, value: area002}
 Mod_Entry_Dir_X: {type: float, value: 0.0}
 Mod_Entry_Dir_Y: {type: float, value: 1.0}
-Mod_Entry_X: {type: float, value: 39.9922}
-Mod_Entry_Y: {type: float, value: 40.0015}
-Mod_Entry_Z: {type: float, value: 5.0}
+Mod_Entry_X: {type: float, value: 39.0}
+Mod_Entry_Y: {type: float, value: 40.0}
+Mod_Entry_Z: {type: float, value: 4.0}
 Mod_Expan_List:
   type: list
   value: []
@@ -33,7 +33,18 @@ Mod_GVar_List:
   value: []
 Mod_HakList:
   type: list
-  value: []
+  value:
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 8, Mod_Hak: {type: cexostr, value: prc_2das}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 8, Mod_Hak: {type: cexostr, value: prc_craft2das}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 8, Mod_Hak: {type: cexostr, value: prc_epicspells}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 8, Mod_Hak: {type: cexostr, value: prc_include}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 8, Mod_Hak: {type: cexostr, value: prc_misc}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 8, Mod_Hak: {type: cexostr, value: prc_newspellbook}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 8, Mod_Hak: {type: cexostr, value: prc_psionics}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 8, Mod_Hak: {type: cexostr, value: prc_race}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 8, Mod_Hak: {type: cexostr, value: prc_scripts}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 8, Mod_Hak: {type: cexostr, value: prc_spells}}
+  - !nwn-lib.elv.es,2013-07:struct {__struct_id: 8, Mod_Hak: {type: cexostr, value: prc_textures}}
 Mod_ID: {type: void, value: !binary "HtadIWWFrOm5R+7gSh5TIQ=="}
 Mod_IsSaveGame: {type: byte, value: 0}
 Mod_MinGameVer: {type: cexostr, value: '1.69'}

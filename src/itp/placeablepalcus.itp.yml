@@ -15,6 +15,17 @@ MAIN:
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
     ID: {type: byte, value: 6}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: xchst_plc}
+        STRREF: {type: dword, value: 5348}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Null Psionics Field Chest}
+        RESREF: {type: resref, value: npf_keep_chest}
     STRREF: {type: dword, value: 6782}
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
@@ -23,10 +34,44 @@ MAIN:
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
     ID: {type: byte, value: 9}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Altar}
+        RESREF: {type: resref, value: codi_sam_altar}
     STRREF: {type: dword, value: 1592}
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
     ID: {type: byte, value: 10}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Mordenkainen's Magnificent Mansion}
+        RESREF: {type: resref, value: mordsmansent}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Restful Bed}
+        RESREF: {type: resref, value: restfulbed}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Restful Bed}
+        RESREF: {type: resref, value: restfulbed001}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Restful Bed Roll}
+        RESREF: {type: resref, value: restfulbedroll}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Restful Campsite}
+        RESREF: {type: resref, value: campingbedroll}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Restful Cot}
+        RESREF: {type: resref, value: restfulcot}
     STRREF: {type: dword, value: 6785}
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
@@ -43,6 +88,13 @@ MAIN:
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
     ID: {type: byte, value: 15}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        RESREF: {type: resref, value: sp_plc_symbol}
+        STRREF: {type: dword, value: 16790080}
     STRREF: {type: dword, value: 9128}
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
@@ -52,10 +104,36 @@ MAIN:
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 0}
+        LIST:
+          type: list
+          value:
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: Deepstone Pillar}
+            RESREF: {type: resref, value: prc_dpst_pillar}
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            RESREF: {type: resref, value: prc_invisobj}
+            STRREF: {type: dword, value: 5800}
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: prc_ess_research}
+            RESREF: {type: resref, value: prc_ess_research}
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: prgt_invis}
+            RESREF: {type: resref, value: prgt_invis}
         STRREF: {type: dword, value: 6688}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 1}
+        LIST:
+          type: list
+          value:
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: LichCrafting}
+            RESREF: {type: resref, value: lichcrafting}
         STRREF: {type: dword, value: 6689}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
@@ -104,4 +182,15 @@ MAIN:
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
     ID: {type: byte, value: 5}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Genesis Enterance Portal}
+        RESREF: {type: resref, value: genesisportal}
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: Genesis Exit Portal}
+        RESREF: {type: resref, value: genesisexit}
     STRREF: {type: dword, value: 6781}

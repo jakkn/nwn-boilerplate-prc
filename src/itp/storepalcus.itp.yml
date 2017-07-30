@@ -7,6 +7,13 @@ MAIN:
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
     ID: {type: byte, value: 5}
+    LIST:
+      type: list
+      value:
+      - !nwn-lib.elv.es,2013-07:struct
+        __struct_id: 0
+        NAME: {type: cexostr, value: prc_scrolls}
+        RESREF: {type: resref, value: prc_scrolls}
     STRREF: {type: dword, value: 6789}
   - !nwn-lib.elv.es,2013-07:struct
     __struct_id: 0
@@ -16,6 +23,25 @@ MAIN:
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
         ID: {type: byte, value: 0}
+        LIST:
+          type: list
+          value:
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: prc_epicspells}
+            RESREF: {type: resref, value: prc_epicspells}
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: prc_magiccraft}
+            RESREF: {type: resref, value: prc_magiccraft}
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: prc_materialcomp}
+            RESREF: {type: resref, value: prc_materialcomp}
+          - !nwn-lib.elv.es,2013-07:struct
+            __struct_id: 0
+            NAME: {type: cexostr, value: prc_recipe}
+            RESREF: {type: resref, value: prc_recipe}
         STRREF: {type: dword, value: 6688}
       - !nwn-lib.elv.es,2013-07:struct
         __struct_id: 0
