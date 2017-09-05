@@ -26,7 +26,7 @@ services:
       -difficulty 2
       -elc 0
       -reloadwhenempty 0
-      -module "boilerplate_prc"
+      -module "module"
       -maxclients 32
       -servervault 1
       -maxlevel 40
