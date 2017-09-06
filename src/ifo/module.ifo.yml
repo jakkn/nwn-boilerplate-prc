@@ -57,7 +57,7 @@ Mod_OnAcquirItem: {type: resref, value: x2_mod_def_aqu}
 Mod_OnActvtItem: {type: resref, value: x2_mod_def_act}
 Mod_OnClientEntr: {type: resref, value: prc_onenter}
 Mod_OnClientLeav: {type: resref, value: prc_onleave}
-Mod_OnCutsnAbort: {type: resref, value: prc_cutabort}
+Mod_OnCutsnAbort: {type: resref, value: prc_oncutabort}
 Mod_OnHeartbeat: {type: resref, value: ''}
 Mod_OnModLoad: {type: resref, value: custom_onmodload}
 Mod_OnModStart: {type: resref, value: ''}
